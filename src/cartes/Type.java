@@ -12,8 +12,8 @@ public enum Type {
 
 	Type(String attaque, String Parade, String Botte) {
 		this.nomAttaque = attaque;
-		this.nomParade = attaque;
-		this.nomBotte = attaque;
+		this.nomParade = Parade;
+		this.nomBotte = Botte;
 	}
 	
 	
